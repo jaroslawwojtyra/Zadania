@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.my-slider div{
+  width: 100vw;
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1
+}
+.my-slider h3{
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  width: 20vw;
+  height: 22px;
+  left: 100px;
+  top: 150px;
+  background-color: grey;
+  color: white;
+  border-style: groove;
+  border-color: black;
+}
+
+.post-slider div{
+  font-size: 24px;
+  margin: 28px;
+  text-align: center;
+}
+
+.post-slider h3{
+  font-size: 12px;
+}
